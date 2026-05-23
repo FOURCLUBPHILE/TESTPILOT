@@ -18,4 +18,4 @@ jobs:
 
       - run: pip install selenium webdriver-manager
 
-      - run: python login_test.py
+      - run: python tests/login_test.py
