@@ -16,6 +16,10 @@ jobs:
         with:
           python-version: '3.11'
 
+
+      - name: Install Chrome
+        uses: browser-actions/setup-chrome@v1
+
       - run: pip install selenium webdriver-manager
 
       - run: python tests/login_test.py
